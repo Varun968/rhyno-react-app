@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#131313" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Forum" /> 
+    <title><Rhyno-React-App></Rhyno-React-App></title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
+    <h1><b>Rhyno EV <img src="src\assets\rhyno-logo.png"></b></h1>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="src\assets\rhyno-logo.png">
+      </div>
+      <nav>
+        <a href="src\pages\Home.js">Home</a>
+        <a href="src\pages\AboutUs.js">About Us</a>
+        <a href="src\pages\Product1.js">Product 1</a>
+        <a href="src\pages\Product2.js">Product 2</a>
+        <a href="src\pages\Product3.js">Product 3</a>
+        <a href="src\pages\Compare.js">Compare</a>
+        <a href="src\pages\Prebook.js">Prebook</a>
+      </nav>
+    </header>
+    <main>
+      <div id="home-content">
+        <section class="rhyno">
+          <h1>Welcome to Rhyno</h1>
+          <p>Your trusted partner in prebooking and rentals</p>
+          <button id="learnMoreBtn">Learn More</button>
+        </section>
+        <section class="services">
+          <h2>Our Services</h2>
+          <div class="service">
+            <h3>Prebook</h3>
+            <p>Secure EV of your choice ahead of time with our easy prebooking service.</p>
+          </div>
+        <div class="service">
+            <h3>Rentals</h3>
+            <p>Find the perfect rental vehicle for your needs at the best rates.</p>
+        </div>
+        </section>
+        <footer>
+          <a href="https://in.linkedin.com/company/rhyno-wheels">Career</a>
+          <a href="src\components\Products.js">Products</a>
+          <a href="src\pages\Rentals.js">Rentals</a>
+          <div id="policy-content">
+            <a href="src\components\PrivacyPolicy.js">Privacy Policy</a>
+            <a href="src\components\RefundPolicy.js">Refund Policy</a>
+            <a href="src\components\WebsitePolicy.js">Website Policy</a>
+          </div>
+          <h1>Contact Us</h1>
+          <div class="flex social-icons">
+            <a href="https://www.instagram.com/rhyno.in/">Instagram<i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/company/rhyno-wheels">Linked-in<i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script type="module" src="src/index.js"></script>
+    <script type="module" src="src\pages\Payment.js"></script>
+    <script type="module" src="src/App.js"></script>
+  </body>
+</html>
