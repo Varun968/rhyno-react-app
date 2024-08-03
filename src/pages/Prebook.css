@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lato', 'Poppins', 'Calibri', sans-serif;
+    background-color: #f2f2f2;
+    color: #252525;
+  }
+  
+  header {
+    background-color: #252525;
+    color: #ededed;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: #FFF225;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #131313;
+    text-decoration: underline;
+  }
+  
+  .main-left h2, .main-left p {
+    margin: 0;
+  }
+  
+  .footer {
+    background-color: #252525;
+    color: #ededed;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer a {
+    color: #FFF225;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #131313;
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .prebook {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .prebook h1 {
+    color: #252525;
+    margin-bottom: 20px;
+  }
+  
+  .prebook p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  #payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #252525;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #252525;
+    color: #FFF225;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #131313;
+  }
+  

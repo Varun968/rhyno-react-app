@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+thead {
+    background-color: #f9ed32;
+    color: #252525;
+}
+
+thead th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #414141;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+    background-color: #fafafa;
+}
+
+tbody td:last-child {
+    color: #424242;
+}

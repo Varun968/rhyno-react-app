@@ -1,0 +1,28 @@
+.rental-container {
+    padding: 20px;
+    background-color: #EDEDED; /* white[1] */
+    color: #202020; /* black[1] */
+}
+
+.rental-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.rental-container p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.rental-container button {
+    background-color: #FFF225; /* yellow[1] */
+    color: #131313; /* black[2] */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.rental-container button:hover {
+    background-color: #F9ED32; /* yellow[0] */
+}

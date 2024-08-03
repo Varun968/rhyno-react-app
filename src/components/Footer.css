@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+  background-color: #424242; /* Dark grey background */
+  color: #ffffff; /* White text */
+  padding: 20px; /* Padding around the footer */
+  text-align: center; /* Center align text */
+  position: relative; /* For positioning children */
+}
+
+.footer-links {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow wrapping to next line */
+  justify-content: center; /* Center the items */
+}
+
+.footer-links li {
+  margin: 0 15px; /* Space between items */
+}
+
+.footer-links a {
+  color: #f9ed32; /* Yellow color for links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-links a:hover {
+  color: #ffffff; /* Change link color on hover */
+}
+
+.footer-links i {
+  font-size: 20px; /* Size of the Font Awesome icons */
+  margin-left: 5px; /* Space between text and icon */
+}
